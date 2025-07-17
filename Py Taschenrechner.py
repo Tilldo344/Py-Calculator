@@ -73,10 +73,6 @@ def rechnung():
         eingabe.insert(tk.END, "Fehler")
 
 
- 
-
-
-
 button_op = tk.Button(button_frame, text= '+', width=5, height=2, font=('Arial', 15),command=lambda: add_wert('+'))
 button_op.grid(row=0, column=3, padx=0)
 
